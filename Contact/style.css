@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Html {
+    width: 100%;
+    height: 100%;
+}
+
+.Body {
+    background: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    width: 100%;
+    height: 100%;
+}
+
+.Cabecalho {
+    background-color: #353535;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 110px;
+    padding-right: 110px;
+    gap: 30px;
+}
+
+.CabecalhoMenuItemAsterisco {
+    background-color: #353535;
+    border: none;
+    flex-wrap: wrap;
+}
+
+.CabecalhoMenuItemAsterisco:hover {
+    background-color: #FFE24D;
+}
+
+.AsteriscoImagem {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.CabecalhoMenu {
+    display: flex;
+    gap: 50px;
+}
+
+.CabecalhoMenuItemPlayList {
+    background-color: #353535;
+    color: whitesmoke;
+    border: none;
+    width: 100%;
+}
+
+.PlayListImagem {
+    width: 100%;
+
+}
+
+.CabecalhoMenuItemPlayList:hover {
+    background-color: #FFE24D;
+}
+
+.CabecalhoMenuItemContact {
+    background-color: #353535;
+    color: whitesmoke;
+    border: none;
+    width: 100%;
+}
+
+.ContactImagem {
+    width: 100%;
+}
+
+.CabecalhoMenuItemContact:hover {
+    background-color: #FFE24D;
+}
+
+.Main {
+    margin: auto;
+    padding: 55px;
+    max-width: 1300px;
+}
+
+
+
+.Rodape {
+    background-color: #FFE24D;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    grid-row-start: 3;
+}
+
+
+.RodapeImagem {
+    margin: auto;
+    display: block;
+    width: 100%;
+    grid-column-start: 2;
+    max-width: 400px;
+}
+
+@media only screen and (min-width: 365px) and (max-width: 700px) {
+    .Pai {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0 auto;
+    }
+    
+    .Grid1 {
+        grid-row: 1/1;
+    }
+
+    .ImgGrid1 {
+        display: block;
+    }
+
+    .Cabecalho {
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+
+    .Main {
+        padding: 35px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .CabecalhoMenu {
+        gap: 20px;
+    }
+
+    .RodapeImagem {
+        min-width: 310px;
+    }
+
+    .PlayListImagem {
+        width: 100px
+    }
+
+    .ContactImagem {
+        width: 100px;
+    }
+
+    .AsteriscoImagem {
+        width: 70px;
+    }
+
+
+}

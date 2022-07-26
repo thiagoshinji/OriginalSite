@@ -97,6 +97,16 @@
     grid-row: 1/3;
 }
 
+.Grid3:hover {
+    outline: 5px solid #FFE24D;
+    outline-offset: -5px;
+}
+
+.Grid2:hover {
+    outline: 5px solid #FFE24D;
+    outline-offset: -5px;
+}
+
 .ImgGrid1 {
     width: 100%;
 }
@@ -110,9 +120,6 @@
     width: 100%;
 }
 
-.Grid3 {
-
-}
 
 .Rodape {
     background-color: #FFE24D;
