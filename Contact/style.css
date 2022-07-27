@@ -14,8 +14,8 @@
 
 .Body {
     background: rgb(255, 255, 255);
-    display: grid;
-    grid-template-columns: repeat(3, 3fr);
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
 }
@@ -84,17 +84,70 @@
 .Main {
     margin: auto;
     padding: 55px;
-    max-width: 1300px;
 }
 
+.contact-form {
+    margin: auto;
+    background-color: #E56F6F;
+    padding: 20px 20px;
+    width: 100%;
+}
 
+.EmailField {
+    width: 100%;
+}
+
+.ImgButtonEmail {
+
+}
+
+.InputEmail {
+    width: 100%;
+    padding-bottom: 20px;
+    background-color: #FFF;
+    border: none;
+}
+
+.MessageField {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ImgButtonMessage {
+
+}
+
+.InputMessage {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 200px;
+    background-color: #FFF;
+    border: none;
+}
+
+.ButtonSend {
+    width: 90px;
+    border: none;
+    background-color: #E56F6F;
+    display: block;
+    margin: 0 auto;
+}
+
+.ButtonSend:hover {
+    background-color: #FFE24D;
+}
+
+.ImgButtonSend {
+    width: 100%;
+    padding-top: 15px;
+}
 
 .Rodape {
     background-color: #FFE24D;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 10px;
-    grid-row-start: 3;
 }
 
 
@@ -107,29 +160,31 @@
 }
 
 @media only screen and (min-width: 365px) and (max-width: 700px) {
-    .Pai {
-        display: grid;
-        grid-template-columns: auto;
-        margin: 0 auto;
-    }
-    
-    .Grid1 {
-        grid-row: 1/1;
-    }
-
-    .ImgGrid1 {
-        display: block;
-    }
 
     .Cabecalho {
         padding-left: 10px;
         padding-right: 20px;
     }
 
+    .Body {
+
+    }
+
     .Main {
         padding: 35px;
+        padding-right: 72px;
         padding-top: 60px;
         padding-bottom: 60px;
+    }
+
+    .MessageField {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .InputMessage {
+        
     }
 
     .CabecalhoMenu {

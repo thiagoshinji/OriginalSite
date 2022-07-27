@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html class="Html" lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,7 @@
     <title>Contact</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body class="Body">
     <header class="Cabecalho">
         <button class="CabecalhoMenuItemAsterisco">
             <a href="/index.html">
@@ -24,19 +24,22 @@
     </header>
 
     <main class="Main">
-        <a> <img src="BotaoPlayList.svg" alt=""></a>
-    <form class="contact-form" action="https://formsubmit.co/shintaki2001@gmail.com" method="POST">
-        <div>
-            <label for="email">E-mail</label>
-            <input type="email" name="email" required>
+    <form class="contact-form" action="https://formsubmit.co/f8f91e42237619eb332ee696ac4a080d" method="POST">
+        <div class="EmailField">
+            <img class-="ImgButtonEmail" src="ButtonEmail.svg">
+            <input class="InputEmail" type="email" name="email" required>
         </div>
-        <div>
-            <label for="message">Mensagem</label>
-            <input type="text" id="message" name="message" required>
+        <div class="MessageField">
+            <img class-="ImgButtonMessage" src="ButtonMessage.svg">
+            <input class="InputMessage" type="text" id="message" name="message" required>
         </div>
-        <button type="submit">Send</button>
-        <input type="hidden" name="_next" value="http://127.0.0.1:5500/Thanks/Thanks.html">
-        <input type="hidden" name="_subject" value="New submission!">
+        <button class="ButtonSend" type="submit">
+            <a href="/index.html"> 
+                <img class="ImgButtonSend" src="ButtonSend.svg">
+            </a>
+        </button>
+        <input type="hidden" name="_subject" value="New message from your site!">
+        <input type="hidden" name="_captcha" value="false">
     </form>
     </main>
 

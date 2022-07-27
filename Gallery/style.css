@@ -93,89 +93,76 @@
     display: grid;
     grid-template-columns: repeat(3, 3fr);
     margin: 0 auto;
-    gap: 0px;
+    gap: 3px;
 }
 
 .ImgGrid1 {
     width: 100%;
     display: block;
-    border: 10px solid #353535;
-    border-bottom: none;
-    
+
 }
 
 .ImgGrid2 {
     width: 100%;
     display: block;
-    border: 10px solid #353535;
-    border-bottom: none;
+
 }
 
 .ImgGrid3 {
     width: 100%;
     display: block;
-    border: 10px solid #353535;
-    border-bottom: none;
+
 }
 
 .ImgGrid4 {
     width: 100%;
     display: block;
-    border: 10px solid #353535;
-    border-bottom: none;
+
 }
 
 .ImgGrid5 {
     width: 100%;
     display: block;
-    border: 10px solid #353535;
-    border-bottom: none;
+
 }
 
 .ImgGrid6 {
     width: 100%;
     display: block;
-    border: 10px solid #353535;
-    border-bottom: none;
+
 }
 
 .ImgGrid7 {
     width: 100%;
     display: block;
-    border: 10px solid #353535;
-    border-bottom: none;
+
 }
 
 .ImgGrid8 {
     width: 100%;
     display: block;
-    border: 10px solid #353535;
-    border-bottom: none;
+
 }
 
 .ImgGrid9 {
     width: 100%;
     display: block;
-    border: 10px solid #353535;
-    border-bottom: none;
+
 }
 
 .ImgGrid10 {
     width: 100%;
     display: block;
-    border: 10px solid #353535;
 }
 
 .ImgGrid11 {
     width: 100%;
     display: block;
-    border: 10px solid #353535;
 }
 
 .ImgGrid12 {
     width: 100%;
     display: block;
-    border: 10px solid #353535;
 }
 
 .Rodape {
@@ -269,7 +256,7 @@
     }
 
     .Main {
-        padding: 50px;
+        padding: 40px;
         padding-left: 40px;
         padding-top: 0px;
         padding-bottom: 0px;
@@ -295,87 +282,5 @@
         width: 70px;
     }
 
-.ImgGrid1 {
-    width: 100%;
-    display: block;
-    border: 7px solid #353535;
-    border-bottom: none;
-    
-}
 
-.ImgGrid2 {
-    width: 100%;
-    display: block;
-    border: 7px solid #353535;
-    border-bottom: none;
-}
-
-.ImgGrid3 {
-    width: 100%;
-    display: block;
-    border: 7px solid #353535;
-    border-bottom: none;
-}
-
-.ImgGrid4 {
-    width: 100%;
-    display: block;
-    border: 7px solid #353535;
-    border-bottom: none;
-}
-
-.ImgGrid5 {
-    width: 100%;
-    display: block;
-    border: 7px solid #353535;
-    border-bottom: none;
-}
-
-.ImgGrid6 {
-    width: 100%;
-    display: block;
-    border: 7px solid #353535;
-    border-bottom: none;
-}
-
-.ImgGrid7 {
-    width: 100%;
-    display: block;
-    border: 7px solid #353535;
-    border-bottom: none;
-}
-
-.ImgGrid8 {
-    width: 100%;
-    display: block;
-    border: 7px solid #353535;
-    border-bottom: none;
-}
-
-.ImgGrid9 {
-    width: 100%;
-    display: block;
-    border: 7px solid #353535;
-    border-bottom: none;
-}
-
-.ImgGrid10 {
-    width: 100%;
-    display: block;
-    border: 7px solid #353535;
-    border-bottom: none;
-}
-
-.ImgGrid11 {
-    width: 100%;
-    display: block;
-    border: 7px solid #353535;
-    border-bottom: none;
-}
-
-.ImgGrid12 {
-    width: 100%;
-    display: block;
-    border: 7px solid #353535;
-}
 }

@@ -98,13 +98,13 @@
 }
 
 .Grid3:hover {
-    outline: 5px solid #FFE24D;
-    outline-offset: -5px;
+    outline: 3px solid #FFF;
+    outline-offset: -3px;
 }
 
 .Grid2:hover {
-    outline: 5px solid #FFE24D;
-    outline-offset: -5px;
+    outline: 3px solid #FFF;
+    outline-offset: -3px;
 }
 
 .ImgGrid1 {
