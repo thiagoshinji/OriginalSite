@@ -84,13 +84,11 @@
 .Main {
     margin: auto;
     padding: 55px;
+    max-width: 1300px;
 }
 
 .contact-form {
-    margin: auto;
-    background-color: #E56F6F;
-    padding: 20px 20px;
-    width: 100%;
+    width: 1000px;
 }
 
 .EmailField {
@@ -103,8 +101,9 @@
 
 .InputEmail {
     width: 100%;
-    padding-bottom: 20px;
-    background-color: #FFF;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #D6D6D6;
     border: none;
 }
 
@@ -120,22 +119,22 @@
 
 .InputMessage {
     width: 100%;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 200px;
-    background-color: #FFF;
+    background-color: #D6D6D6;
     border: none;
 }
 
 .ButtonSend {
     width: 90px;
     border: none;
-    background-color: #E56F6F;
+    background-color: #fff;
     display: block;
     margin: 0 auto;
 }
 
 .ButtonSend:hover {
-    background-color: #FFE24D;
+    background-color: #E56F6F;
 }
 
 .ImgButtonSend {
@@ -159,11 +158,23 @@
     max-width: 400px;
 }
 
-@media only screen and (min-width: 365px) and (max-width: 700px) {
+@media only screen and (min-width: 700px) and (max-width: 1111px) {
+
+    .contact-form {
+        width: 100%;
+    }
+
+}
+@media only screen and (min-width: 365px) and (max-width: 699px) {
 
     .Cabecalho {
         padding-left: 10px;
-        padding-right: 20px;
+        padding-right: 10px;
+    }
+
+    .CabecalhoMenu {
+        gap: 10px;
+        width: 100%;
     }
 
     .Body {
@@ -171,11 +182,15 @@
     }
 
     .Main {
-        padding: 35px;
-        padding-right: 72px;
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
+
+    .contact-form {
+        width: 100%;
+    }
+    
 
     .MessageField {
         width: 100%;
@@ -184,11 +199,24 @@
     }
 
     .InputMessage {
-        
+        border: none;
     }
 
-    .CabecalhoMenu {
-        gap: 20px;
+    .InputEmail {
+        border: none;
+    }
+
+    .ImgButtonEmail {
+        width: 70px;
+    }
+
+    .ImgButtonMessage {
+        width: 100px;
+    }
+
+    .ButtonSend {
+        width: 70px;
+        border: none;
     }
 
     .RodapeImagem {

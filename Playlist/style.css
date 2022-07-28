@@ -81,90 +81,6 @@
     background-color: #FFE24D;
 }
 
-.Main {
-    margin: auto;
-    padding: 55px;
-    max-width: 1300px;
-    margin-top: 70px;
-    margin-bottom: 65px;
-}
-
-.Pai {
-    display: grid;
-    grid-template-columns: repeat(3, 3fr);
-    margin: 0 auto;
-    gap: 3px;
-}
-
-.ImgGrid1 {
-    width: 100%;
-    display: block;
-
-}
-
-.ImgGrid2 {
-    width: 100%;
-    display: block;
-
-}
-
-.ImgGrid3 {
-    width: 100%;
-    display: block;
-
-}
-
-.ImgGrid4 {
-    width: 100%;
-    display: block;
-
-}
-
-.ImgGrid5 {
-    width: 100%;
-    display: block;
-
-}
-
-.ImgGrid6 {
-    width: 100%;
-    display: block;
-
-}
-
-.ImgGrid7 {
-    width: 100%;
-    display: block;
-
-}
-
-.ImgGrid8 {
-    width: 100%;
-    display: block;
-
-}
-
-.ImgGrid9 {
-    width: 100%;
-    display: block;
-
-}
-
-.ImgGrid10 {
-    width: 100%;
-    display: block;
-}
-
-.ImgGrid11 {
-    width: 100%;
-    display: block;
-}
-
-.ImgGrid12 {
-    width: 100%;
-    display: block;
-}
-
 .Rodape {
     background-color: #FFE24D;
     display: grid;
@@ -181,22 +97,81 @@
     max-width: 400px;
 }
 
+.Main {
+    padding: 100px 310px;
+}
 
-@media only screen and (min-width: 800px) and (max-width: 1199px) {
-    .Pai {
-        display: grid;
-        margin: 0 auto;
-    }
+
+.Div {
+
+}
+
+
+
+.ArtistaImpar {
+    background: darkgray;
+    width: 100%;
+
+}
+
+.MusicaImpar {
+    background: darkgrey;
+
+}
+
+.ArtistaPar {
+    background: #d6d6d6;
+
+}
+
+.MusicaPar {
+    background: #d6d6d6;
+
+}
+
+.ImgArtistaImpar {
+}
+
+.ImgMusicaImpar {
+
+}
+
+.ImgArtistaPar {
+
+}
+
+.ImgMusicaPar {
+
+}
+
+.Rock{
+
+}
+
+
+.MPB {
+
+}
+
+.Raggae {
+
+}
+
+.Indie {
+
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1400px) {
 
     .Cabecalho {
-        padding-left: 30px;
+        padding-left: 10px;
         padding-right: 20px;
     }
 
     .Main {
-        padding: 60px;
-        padding-top: 0px;
-        padding-bottom: 0px;
+        padding: 100px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     .CabecalhoMenu {
@@ -207,48 +182,21 @@
         min-width: 310px;
     }
 
+    .PlayListImagem {
+        width: 100px
+    }
 
+    .ContactImagem {
+        width: 100px;
+    }
+
+    .AsteriscoImagem {
+        width: 70px;
+    }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 799px) {
-    .Pai {
-        display: grid;
-        grid-template-columns: repeat(2, 2fr);
-        margin: 0 auto;
-    }
 
-    .Cabecalho {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .CabecalhoMenu {
-        gap: 20px;
-    }
-
-    .RodapeImagem {
-        min-width: 310px;
-    }
-
-    .Main {
-        padding: 60px;
-        padding-left: 42px;
-        padding-top: 0px;
-        padding-bottom: 0px;
-    }
-
-    .ImgGrid10 {
-        border-bottom: none;
-    }
-
-}
-
-@media only screen and (min-width: 150px) and (max-width: 499px) {
-    .Pai {
-        display: grid;
-        grid-template-columns: auto;
-        margin: 0 auto;
-    }
+@media only screen and (min-width: 365px) and (max-width: 699px) {
 
     .Cabecalho {
         padding-left: 10px;
@@ -259,7 +207,6 @@
         padding: 20px;
         padding-top: 40px;
         padding-bottom: 40px;
-        margin: 0px;
     }
 
     .CabecalhoMenu {
@@ -283,5 +230,23 @@
         width: 70px;
     }
 
+    .ImgArtistaImpar {
+        width: 130px;
+    }
+    
+    .ImgMusicaImpar {
+        width: 150px;
+    }
+    
+    .ImgArtistaPar {
+        width: 130px;
+    }
+    
+    .ImgMusicaPar {
+        width: 150px;
+    }
 
+    .ImgLista {
+        width: 150px;
+    }
 }
