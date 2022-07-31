@@ -230,23 +230,4 @@
         width: 70px;
     }
 
-    .ImgArtistaImpar {
-        width: 130px;
-    }
-    
-    .ImgMusicaImpar {
-        width: 150px;
-    }
-    
-    .ImgArtistaPar {
-        width: 130px;
-    }
-    
-    .ImgMusicaPar {
-        width: 150px;
-    }
-
-    .ImgLista {
-        width: 150px;
-    }
 }
