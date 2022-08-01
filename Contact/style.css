@@ -1,10 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    text-decoration: none;
-    list-style: none;
     font-size: 1.2rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace;
 }
 
 .Html {
@@ -59,7 +57,6 @@
 
 .PlayListImagem {
     width: 100%;
-
 }
 
 .CabecalhoMenuItemPlayList:hover {
@@ -95,10 +92,6 @@
     width: 100%;
 }
 
-.ImgButtonEmail {
-
-}
-
 .InputEmail {
     width: 100%;
     padding-bottom: 10px;
@@ -111,10 +104,6 @@
     width: 100%;
     margin-top: 50px;
     margin-bottom: 30px;
-}
-
-.ImgButtonMessage {
-
 }
 
 .InputMessage {
@@ -177,10 +166,6 @@
         width: 100%;
     }
 
-    .Body {
-
-    }
-
     .Main {
         padding: 20px;
         padding-top: 40px;
@@ -220,7 +205,7 @@
     }
 
     .RodapeImagem {
-        min-width: 310px;
+        min-width: 300px;
     }
 
     .PlayListImagem {
@@ -232,7 +217,7 @@
     }
 
     .AsteriscoImagem {
-        width: 70px;
+        width: 60px;
     }
 
 
