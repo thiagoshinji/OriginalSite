@@ -1,10 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    text-decoration: none;
     list-style: none;
-    font-size: 1.2rem;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .Html {
@@ -26,7 +23,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding-left: 110px;
-    padding-right: 110px;
+    padding-right: 70px;
     gap: 30px;
 }
 
@@ -37,7 +34,7 @@
 }
 
 .CabecalhoMenuItemAsterisco:hover {
-    background-color: #FFE24D;
+    background-color: #E56F6F;
 }
 
 .AsteriscoImagem {
@@ -59,11 +56,10 @@
 
 .PlayListImagem {
     width: 100%;
-
 }
 
 .CabecalhoMenuItemPlayList:hover {
-    background-color: #FFE24D;
+    background-color: #E56F6F;
 }
 
 .CabecalhoMenuItemContact {
@@ -78,7 +74,7 @@
 }
 
 .CabecalhoMenuItemContact:hover {
-    background-color: #FFE24D;
+    background-color: #E56F6F;
 }
 
 .Rodape {
@@ -98,105 +94,30 @@
 }
 
 .Main {
-    padding: 100px 310px;
+    padding: 55px 270px;
 }
-
 
 .Div {
 
 }
 
-
-
 .ArtistaImpar {
     background: darkgray;
-    width: 100%;
-
 }
 
 .MusicaImpar {
     background: darkgrey;
-
 }
 
 .ArtistaPar {
     background: #d6d6d6;
-
 }
 
 .MusicaPar {
     background: #d6d6d6;
-
 }
 
-.ImgArtistaImpar {
-}
-
-.ImgMusicaImpar {
-
-}
-
-.ImgArtistaPar {
-
-}
-
-.ImgMusicaPar {
-
-}
-
-.Rock{
-
-}
-
-
-.MPB {
-
-}
-
-.Raggae {
-
-}
-
-.Indie {
-
-}
-
-@media only screen and (min-width: 700px) and (max-width: 1400px) {
-
-    .Cabecalho {
-        padding-left: 10px;
-        padding-right: 20px;
-    }
-
-    .Main {
-        padding: 100px;
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-
-    .CabecalhoMenu {
-        gap: 20px;
-    }
-
-    .RodapeImagem {
-        min-width: 310px;
-    }
-
-    .PlayListImagem {
-        width: 100px
-    }
-
-    .ContactImagem {
-        width: 100px;
-    }
-
-    .AsteriscoImagem {
-        width: 70px;
-    }
-}
-
-
-@media only screen and (min-width: 365px) and (max-width: 699px) {
+@media only screen and (min-width: 365px) and (max-width: 500px) {
 
     .Cabecalho {
         padding-left: 10px;
@@ -228,6 +149,43 @@
 
     .AsteriscoImagem {
         width: 60px;
+    }
+
+}
+
+@media only screen and (min-width: 501px) and (max-width: 1000px) {
+
+    .Cabecalho {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .Main {
+        padding: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 55px;
+    }
+
+    .CabecalhoMenu {
+        gap: 10px;
+        width: 100%;
+    }
+
+    .RodapeImagem {
+        min-width: 500px;
+    }
+
+    .PlayListImagem {
+        width: 150px
+    }
+
+    .ContactImagem {
+        width: 150px;
+    }
+
+    .AsteriscoImagem {
+        width: 100px;
     }
 
 }

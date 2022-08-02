@@ -24,7 +24,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding-left: 110px;
-    padding-right: 110px;
+    padding-right: 70px;
     gap: 30px;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .CabecalhoMenuItemAsterisco:hover {
-    background-color: #FFE24D;
+    background-color: #E56F6F;
 }
 
 .AsteriscoImagem {
@@ -60,7 +60,7 @@
 }
 
 .CabecalhoMenuItemPlayList:hover {
-    background-color: #FFE24D;
+    background-color: #E56F6F;
 }
 
 .CabecalhoMenuItemContact {
@@ -75,17 +75,16 @@
 }
 
 .CabecalhoMenuItemContact:hover {
-    background-color: #FFE24D;
+    background-color: #E56F6F;
 }
 
 .Main {
     margin: auto;
-    padding: 55px;
-    max-width: 1300px;
+    padding: 40px 55px;
 }
 
 .contact-form {
-    width: 1000px;
+    width: 1200px;
 }
 
 .EmailField {
@@ -131,6 +130,38 @@
     padding-top: 15px;
 }
 
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    width: 100%;
+}
+
+.Img1 {
+    width: 50px;
+}
+
+.Img1:hover {
+    width: 70px;
+}
+
+.Img2 {
+    width: 50px;
+}
+
+.Img2:hover {
+    width: 70px;
+}
+
+.Img3 {
+    width: 50px;
+}
+
+.Img3:hover {
+    width: 70px;
+}
+
 .Rodape {
     background-color: #FFE24D;
     display: grid;
@@ -147,14 +178,7 @@
     max-width: 400px;
 }
 
-@media only screen and (min-width: 700px) and (max-width: 1111px) {
-
-    .contact-form {
-        width: 100%;
-    }
-
-}
-@media only screen and (min-width: 365px) and (max-width: 699px) {
+@media only screen and (min-width: 365px) and (max-width: 500px) {
 
     .Cabecalho {
         padding-left: 10px;
@@ -176,7 +200,6 @@
         width: 100%;
     }
     
-
     .MessageField {
         width: 100%;
         margin-top: 30px;
@@ -220,5 +243,78 @@
         width: 60px;
     }
 
+    .Img1 {
+        width: 40px;
+    }
+    
+    .Img1:hover {
+        width: 50px;
+    }
+    
+    .Img2 {
+        width: 40px;
+    }
+    
+    .Img2:hover {
+        width: 50px;
+    }
+    
+    .Img3 {
+        width: 40px;
+    }
+    
+    .Img3:hover {
+        width: 50px;
+    }
 
+}
+
+@media only screen and (min-width: 501px) and (max-width: 1000px) {
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .Cabecalho {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .Main {
+        padding: 20px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        margin-left: 55px;
+        margin-right: 55px;
+    }
+
+    .InputMessage {
+        padding-bottom: 300px;
+    }
+
+    .CabecalhoMenu {
+        gap: 10px;
+        width: 100%;
+    }
+
+    .RodapeImagem {
+        min-width: 500px;
+    }
+
+    .PlayListImagem {
+        width: 150px
+    }
+
+    .ContactImagem {
+        width: 150px;
+    }
+
+    .AsteriscoImagem {
+        width: 100px;
+    }
+
+    .links {
+        gap: 80px;
+    }
+    
 }
